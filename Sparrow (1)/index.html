@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Sparrow">
+	<meta name="author" content="LvXinyue">
+	<title>Sparrow</title>
+	<link rel="stylesheet" href="base/base_style.css">
+	<link rel="stylesheet" href="index/index_style.css">
+	<link rel="icon" type="image/png" href="img/sparrow_logo.png">
+	<script src="base/cet4.js" ></script>
+	<script src="index/search.js"></script> 
+</head>
+
+<body></body>
+	<div id="content">
+		<br>
+		<div class="search_part">
+			<a class="logo" onclick="displayDate()">
+				<img class="smaller" src="img/sparrow-2.png">
+			</a>
+			<br>
+			<form onsubmit="return search()" class="search_bar">
+				<input id="search_submit" value="搜索" type="submit">
+				<span><input class="search" autocomplete="off" id="search_input" placeholder="✎...搜点什么好呢？" type="text"></span>
+				<ul id="suglist"></ul>
+			</form>
+		</div>
+		<br>
+
+		<div class="box">
+			<a href="课表/schdule.html"></a>
+			<p><img class="icon" src="img/schedule-2.png"></p>
+			<p class="url">课表</p>
+		</div>
+
+		<div class="box">
+			<a href="clock/clock.html"></a>
+			<p><img class="icon" src="img/timer_logo3.png"></p>
+			<p class="url">timer</p>
+		</div>
+
+		<div class="box">
+			<a href="ToDoList/ToDoList.html"></a>
+			<p><img class="icon" src="img/便签.png"></p>
+			<p class="url">ToDo</p>
+		</div>
+
+		<div class="box">
+			<a href="caculator/caculator.html"></a>
+			<p><img class="icon" src="img/caculator_2.png"></p>
+			<p class="url">计算器</p>
+		</div>
+
+		<div class="box">
+			<a href="https://map.baidu.com/" target="_blank"></a>
+			<p><img class="icon" src="img/ditu-2.png"></p>
+			<p class="url">地图</p>
+		</div>
+
+		<div class="box">
+			<a href="https://fanyi.baidu.com/" target="_blank"></a>
+			<p><img class="icon" src="img/百度翻译.png"></p>
+			<p class="url">翻译</p>
+		</div>
+
+		<div class="box">
+			<a href="https://e.buaa.edu.cn/" target="_blank"></a>
+			<p><img class="icon" src="img/BUAA_1.png"></p>
+			<p class="url">VPN</p>
+		</div>
+
+		<div class="box">
+			<a href="https://github.com/" target="_blank"></a>
+			<p><img class="icon" src="img/github_2.png"></p>
+			<p class="url">github</p>
+		</div>
+
+		<div class="box">
+			<a href="https://www.zhihu.com/" target="_blank"></a>
+			<p><img class="icon" src="img/知乎.png"></p>
+			<p class="url">知乎</p>
+		</div>
+		
+
+		<div class="box">
+			<a href="http://m.bilibili.com/" target="_blank"></a>
+			<p><img class="icon" src="img/bilibili-1.png"></p>
+			<p class="url">哔哩哔哩</p>
+		</div>
+	</div>
+
+	<footer>
+		copyright@LvXinyue -&gt; <a href="index.html">戳我回主页</a>
+	</footer>
+
+	<script src="index/search_avtive.js"></script>
+	<canvas width="1521" height="754" style="position: fixed; top: 0px; left: 0px; pointer-events: none; z-index: 999999;"></canvas>
+    <script>
+		POWERMODE.colorful = true; // 控制开启/开启礼花特效  
+		POWERMODE.shake = true; // 控制开启/关闭屏幕震动特效  
+		document.body.addEventListener('input', POWERMODE);
+    </script>
+</body>
+</html>
