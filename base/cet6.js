@@ -1864,7 +1864,7 @@
           }
           
           $elem.style.fontSize = 22 + "px";
-          // $elem.style.color = "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")";
+          $elem.style.color = "rgb("+~~(255*Math.random())+","+~~(255*Math.random())+","+~~(255*Math.random())+")";
           var increase = 0;
           var anim;
           setTimeout(function() {
